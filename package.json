@@ -1,0 +1,15 @@
+{
+  "name": "masaiverseevent-problem",
+  "version": "1.0.0",
+  "description": "planning an upcoming Masaiverse meetup where you need info of alumni so that you can prepare appropriate accommodation/food facilities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "json-server --watch db.json --port 3001",
+    "start": "node index.js"
+  },
+  "author": "Rushikesh Bhomale",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
